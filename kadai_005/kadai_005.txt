@@ -1,0 +1,14 @@
+$ cd ./git_challenge
+$ touch hello_world.txt
+$ git add .
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) f39e106] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+$ git add .
+$ git commit -m "日本語を追加"
+[main cbbb7d2] 日本語を追加
+ 1 file changed, 1 insertion(+)
+$ git log --oneline
+cbbb7d2 (HEAD -> main) 日本語を追加
+f39e106 hello_world.txtを追加
